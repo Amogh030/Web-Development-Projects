@@ -1,0 +1,161 @@
+/* body{
+            font-family: "Edu AU VIC WA NT Hand", cursive;
+            font-weight: 500;
+        } */
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.bar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 35px;
+    font-size: 23px;
+
+}
+
+.bar ul li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.bar ul li span {
+    padding: 0px 3px;
+}
+
+
+
+.icon img.one {
+    width: 30px;
+    height: 35px;
+}
+
+/* GRID PART OF WEB */
+
+.first1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 70px;
+    font-family: sans-serif;
+
+
+}
+
+.first1 span {
+    font-size: 42px;
+}
+
+section span img {
+    width: 82px;
+    margin: 0px 23px;
+}
+
+.first1 p {
+    font-size: 23px;
+    width: 40vw;
+    text-align: center;
+}
+
+.btn {
+
+    background-color: #0cc1dd;
+    padding: 14px 16px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin:12px 0px;
+    cursor: pointer;
+}
+
+.btn a{
+    text-decoration:none;
+    color: white;
+}
+
+a:hover{
+    color: blue;
+    /* background-color: red; */
+}
+
+/* GRID PART */
+/* .flex {
+    display: flex;
+} */
+
+.small {
+    font-size: 14px;
+}
+
+.first2 {
+
+    max-width: 70vw;
+    margin:auto;
+    /* display: flex; */
+    /* flex-direction: column;
+    align-items: center; */
+}
+
+.green {
+    background-color: #5cb85c;
+}
+
+.item {
+    /* display: flex; */
+    padding: 24px ;
+    background-color: #f9f9f9;
+    /* background: transparent; */
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.item-lang{
+    font-weight:600;
+    text-align: center;
+    padding-bottom: 36px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+}
+
+.download :nth-child(2){
+    font-size:23px;
+
+}
+
+.download{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.img-2{
+    width: 50px;
+    height: 50px;
+    padding:0px 12px;
+}
+
+
+@media screen and (max-width:945px) {
+    .grid{
+        grid-template-columns: 1fr;
+
+    }
+}
